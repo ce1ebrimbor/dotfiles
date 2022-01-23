@@ -7,8 +7,8 @@ call plug#begin()
 Plug 'cohama/lexima.vim'
 
 if has("nvim")
+  Plug 'nvim-lualine/lualine.nvim'
   Plug 'neovim/nvim-lspconfig'
-  Plug 'hoob3rt/lualine.nvim'
   Plug 'hrsh7th/cmp-nvim-lsp'
   Plug 'hrsh7th/cmp-buffer'
   Plug 'hrsh7th/cmp-path'
