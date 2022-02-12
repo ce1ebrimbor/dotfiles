@@ -5,6 +5,7 @@ endif
 call plug#begin()
 
 Plug 'cohama/lexima.vim'
+Plug 'hashivim/vim-terraform'
 
 if has("nvim")
   Plug 'nvim-lualine/lualine.nvim'
