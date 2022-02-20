@@ -49,11 +49,15 @@ nvim_lsp.gopls.setup {
   capabilities = capabilities
 }
 
+-- Python setup with pyright
+nvim_lsp.pyright.setup{}
+
 nvim_lsp.tsserver.setup {
   on_attach = on_attach,
   filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
   capabilities
 }
+
 
 nvim_lsp.diagnosticls.setup {
   on_attach = on_attach,
