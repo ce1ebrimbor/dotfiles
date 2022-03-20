@@ -50,7 +50,7 @@ nvim_lsp.gopls.setup {
 }
 
 -- Python setup with pyright
-nvim_lsp.pyright.setup{}
+nvim_lsp.pylsp.setup{}
 
 nvim_lsp.tsserver.setup {
   on_attach = on_attach,
