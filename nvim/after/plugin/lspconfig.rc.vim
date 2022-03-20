@@ -49,8 +49,10 @@ nvim_lsp.gopls.setup {
   capabilities = capabilities
 }
 
--- Python setup with pyright
-nvim_lsp.pylsp.setup{}
+nvim_lsp.pylsp.setup{
+  on_attach = on_attach,
+  capabilities = capabilities
+  }
 
 nvim_lsp.tsserver.setup {
   on_attach = on_attach,
